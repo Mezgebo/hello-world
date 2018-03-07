@@ -1,0 +1,8 @@
+Hello World in PL/SQL
+DECLARE
+  student_id varchar2(20):=10;
+BEGIN
+  DBMS_OUPUT.PUT_LINE('Hello World');
+  DBMS_OUPUT.PUT_LINE('Student ID:' || student_id);
+END
+/
